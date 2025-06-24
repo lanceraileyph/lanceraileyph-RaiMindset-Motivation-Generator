@@ -5,7 +5,7 @@
    ,"Don’t let yesterday take up too much of today." , "You learn more from failure than from success", "Failure Builds Character", "Either you run the day or the day runs you." ,
     "One man with courage makes a majority", "A man who has committed a mistake and doesn’t correct it is committing another mistake", 
     "Don’t let someone else’s opinion of you become your reality." ,"Your goals, minus your doubts, equal your reality.","Nothing is impossible.","Success usually comes to those who are too busy to be looking for it."
-    ,"Don’t be afraid to give up the good to go for the great.","Do what you have always done and you’ll get what you have always got","Today is never too late to be brand new","if you never bleed you’re never gonna grow","The secret of getting ahead is getting started.",
+    ,"Don’t be afraid to give up the good to go for the great.","Today is never too late to be brand new","if you never bleed you’re never gonna grow","The secret of getting ahead is getting started.",
      "If you can dream it, you can do it. ", "Set your goals high, and don’t stop till you get there.",
       "Live out of your imagination, not your history.", "Stay Strong" , "Nothing Can Stop Me" , "I will be the STRONGEST",
     "I'm gonna be the best", "With the new day comes new strength and new thoughts." , "Focus on your strengths, not your weaknesses." ,
@@ -13,7 +13,7 @@
     "Nothing is Impossible" , "The only thing we have to fear is fear itself.", "You don’t have to see the whole staircase, just take the first step.","Change your thoughts and you change your world."
     ,"It’s hard to beat a person who never gives up", "Don’t be pushed by your problems; be led by your dreams.", "If you’re going through hell, keep going", "Better to do something imperfectly than to do nothing flawlessly."
     ,"Nothing will work unless you do.","Focus on being productive instead of busy.", "The beginning is the most important part of the work.", "Set your goals high, and don’t stop till you get there.","Dream as if you’ll live forever, live as if you’ll die today."
-    ,"Taking it easy won’t take you anywhere", "Do what you feel in your heart to be right―for you’ll be criticized anyway.",
+    ,"Taking it easy won’t take you anywhere"
   ];
   const quotetext = document.getElementById("demo");
 
