@@ -1,0 +1,144 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motivation Generator</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<style>
+  body {
+    font-size: 50px ;
+    background-image: linear-gradient(rgb(20, 19, 19) , rgb(44, 44, 44) ) ;
+      background-size: 300px 1000px;
+      color: white;
+    text-align: center;
+    font-family: Verdana;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+  }
+  #toggleButton {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 15px;
+  font-family: Heavitas;
+  -webkit-text-stroke: rgb(105, 195, 255);
+
+  
+
+  
+  }
+@font-face {
+  font-family: Heavitas ;
+  src: url(Heavitas.ttf);
+}
+@font-face {
+  font-family: PaybAck;
+  src: url(PaybAck.ttf);
+}
+.logo{
+  text-align: left;
+}
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+#toggleButton:hover {background-color: #080808}
+
+.TOP {
+  position: absolute;
+  top: 15px;
+  left: 120px;
+  height: 10vh;
+  font-size: 18px;
+  font-family: PaybAck;
+}
+.middle {
+  position: absolute;
+  left: 50%;
+  top: 48%; 
+  transform: translateX(-50%) translateY(-50%); 
+  font-family: PaybAck;
+  font-size: 38px;
+  text-align: center;
+}
+#toggleButton:active {
+  background-color: #161616;
+  transform: translateY(4px);
+}
+
+#bomb {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+display: none;
+  width: 500px; 
+}
+a {
+  color:rgb(255, 255, 255);
+}
+a:hover {
+  color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(242, 247, 179), 0 0 5px rgb(248, 141, 141) ;
+}
+a:active {
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255) ;
+}
+
+.logo:hover{
+box-shadow:  1px 1px 2px black, 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background: #000; 
+  color: white;      
+  text-align: center;
+  font-size: 12px;
+  font-family: PaybAck;
+}
+#Greet {
+font-size: 12px;
+}
+
+</style>
+
+<body>
+  <div class="topleft">
+  <a href="https://www.tiktok.com/@raimindset12"><img src="logo.png" height="100px" width="100px" class="logo"></a>
+  </div>
+  <div class="TOP">
+    <h1 ><a href="https://www.tiktok.com/@raimindset12">RAIMINDSET</a></h1>
+        <h1 id = "Greet">HELLO</h1>
+  </div>
+  <center>
+  <div class="middle">
+
+    <img id="bomb" src="boomeffect.gif" height="300px" width="500px">
+  <p id="demo">Click The button!</p>
+<br>
+<br>
+<button type="button" id="toggleButton" onclick="newquote()" onclick="bomb()">Generate Motivation</button>
+</div>
+</center>
+<script src="script.js"></script>
+<div class="footer">
+<footer> <h1>© 2025 LanceRaileyPH </h1></footer>
+</div>
+</body>
+</html>
